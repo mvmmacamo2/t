@@ -18,6 +18,7 @@ use Illuminate\Http\Request;
 //});
 
 Route::get('/usuarios', ['uses'=>'UsuarioController@getAllUsuarios']);
-
-Route::post('/usuario', ['uses'=>'UsuarioController']);
-//Route::get('/trabalhos', ['uses' => 'TrabalhoController@getAll'])
+Route::post('/usuario', ['uses'=>'UsuarioController@SaveUsuario']);
+Route::put('/usuario/{id}', ['uses'=>'UsuarioController@UpdateUsuario']);
+Route::get('/usuario/{id}', ['uses'=>'UsuarioController@getUsuario']);
+Route::delete('/usuario/{id}', ['uses'=>'UsuarioController@DeleteUsuario']);

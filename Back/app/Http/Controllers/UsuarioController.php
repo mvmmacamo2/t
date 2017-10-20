@@ -109,7 +109,7 @@ class UsuarioController extends Controller
 
 
     // metodo n=buscar usuario
-    public function getDisciplina($id)
+    public function getUsuario($id)
     {
         $usuario = Usuario::find($id);
         if ($usuario) {
