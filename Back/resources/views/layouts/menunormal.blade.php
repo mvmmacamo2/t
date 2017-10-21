@@ -33,30 +33,25 @@
         </ul>
 
 
-
-
-
         <div class="dropdown show ">
             {{--btn btn-secondary dropdown-toggle--}}
 
             <a class="dropdown-toggle btn text-white" href="#" role="button" id="dropdownMenuLink"
-               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><small><i class="material-icons">perm_identity</i></small>
-               Login
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <small><i class="material-icons">perm_identity</i></small>
+                Login
             </a>
 
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                {{--<a class="dropdown-item" href="#"><li class="material-icons">account_circle</li>Perfil</a>--}}
-                {{--<a class="dropdown-item" href="#"><li class="material-icons">settings</li>Configuracoes</a>--}}
-                {{--<a class="dropdown-item" href="#"><li class="material-icons">help</li>Ajuda</a>--}}
-                {{--<div class="dropdown-divider"></div>--}}
-                {{--<a class="dropdown-item" href="#"><li class="material-icons">lock_outline</li>Bloquear</a>--}}
-                {{--<a class="dropdown-item" href="#"><li class="material-icons">keyboard_tab</li>Sair</a>--}}
-                <a class="dropdown-item" href="#"><li class="material-icons">keyboard_tab</li>Entrar</a>
-                <a class="dropdown-item" href="#"><li class="material-icons">keyboard_tab</li>Criar Conta</a>
+                <a class="dropdown-item" href="/acesso/login">
+                    <li class="material-icons">keyboard_tab</li>
+                    Entrar</a>
+                <a class="dropdown-item" href="#">
+                    <li class="material-icons">keyboard_tab</li>
+                    Criar Conta</a>
             </div>
         </div>
-
 
 
     </div>

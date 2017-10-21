@@ -27,6 +27,13 @@ Route::get('/visitag', 'VisitaGEscolaController@index');
 
 
 
+// area de acesso
+Route::get('/acesso/login', 'AcessoController@login');
+Route::get('/acesso/registar', 'AcessoController@registar');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

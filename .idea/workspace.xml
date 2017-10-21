@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979f647a-125c-4300-82d0-13af54819540" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGEscolaController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/app/Escola.php" afterPath="$PROJECT_DIR$/Back/app/Escola.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGController.php" afterPath="$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/app/VisitagEscola.php" afterPath="$PROJECT_DIR$/Back/app/VisitagEscola.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/resources/views/layouts/menuadmin.blade.php" afterPath="$PROJECT_DIR$/Back/resources/views/layouts/menuadmin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/resources/views/visitasg/index.blade.php" afterPath="$PROJECT_DIR$/Back/resources/views/visitasg/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/resources/views/layouts/masterinicial.blade.php" afterPath="$PROJECT_DIR$/Back/resources/views/layouts/masterinicial.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php" afterPath="$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/resources/views/paginas/index.blade.php" afterPath="$PROJECT_DIR$/Back/resources/views/paginas/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Back/routes/web.php" afterPath="$PROJECT_DIR$/Back/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,36 +16,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VisitaGEscolaController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGEscolaController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="escola.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Escola.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Back/app/Escola.php">
+      <file leaf-file-name="menunormal.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcessoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/AcessoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="escola.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Back/resources/views/acesso/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#23#62#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="93" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,12 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php" />
-        <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_093817_create_escolas_table.php" />
-        <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_094800_create_entidade_servicos_table.php" />
-        <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_095519_create_publicacaos_table.php" />
-        <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_100316_create_comentarios_table.php" />
-        <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_085502_create_respostapatios_table.php" />
         <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_082359_create_visitags_table.php" />
         <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_084910_create_apatios_table.php" />
         <option value="$PROJECT_DIR$/Back/database/migrations/2017_10_18_091004_create_eventos_table.php" />
@@ -117,11 +134,17 @@
         <option value="$PROJECT_DIR$/Back/resources/views/visitasg/index.blade.php" />
         <option value="$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGController.php" />
         <option value="$PROJECT_DIR$/Back/resources/views/layouts/menuadmin.blade.php" />
-        <option value="$PROJECT_DIR$/Back/routes/web.php" />
         <option value="$PROJECT_DIR$/Back/app/VisitagEscola.php" />
         <option value="$PROJECT_DIR$/Back/app/Escola.php" />
         <option value="$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGEscolaController.php" />
         <option value="$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php" />
+        <option value="$PROJECT_DIR$/Back/resources/views/layouts/masterinicial.blade.php" />
+        <option value="$PROJECT_DIR$/Back/resources/views/paginas/index.blade.php" />
+        <option value="$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php" />
+        <option value="$PROJECT_DIR$/Back/app/Http/Controllers/AcessoController.php" />
+        <option value="$PROJECT_DIR$/Back/routes/web.php" />
+        <option value="$PROJECT_DIR$/Back/resources/views/acesso/registar.blade.php" />
+        <option value="$PROJECT_DIR$/Back/resources/views/acesso/login.blade.php" />
       </list>
     </option>
   </component>
@@ -135,7 +158,7 @@
     <handled-path value="$PROJECT_DIR$/Front/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="11" />
     <option name="y" value="6" />
     <option name="width" value="1346" />
@@ -195,19 +218,6 @@
               <item name="t" type="b2602c69:ProjectViewProjectNode" />
               <item name="t" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -216,22 +226,6 @@
               <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="usuarios" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="t" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Back" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="visitasg" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="t" type="b2602c69:ProjectViewProjectNode" />
@@ -258,8 +252,9 @@
       <recent name="D:\DAW\t\Back\public\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DAW\t\Front\src\app\conteudos-modullo" />
       <recent name="D:\DAW\t\Back\resources\views" />
+      <recent name="D:\DAW\t\Back\resources\views\acesso" />
+      <recent name="D:\DAW\t\Front\src\app\conteudos-modullo" />
       <recent name="D:\DAW\t\Back\resources\views\admin\usuarios" />
       <recent name="D:\DAW\t\Back\resources\views\admin" />
     </key>
@@ -301,26 +296,25 @@
       <workItem from="1508485862613" duration="1539000" />
       <workItem from="1508501939002" duration="4381000" />
       <workItem from="1508515135768" duration="973000" />
-      <workItem from="1508566063192" duration="17399000" />
+      <workItem from="1508566063192" duration="20892000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103009000" />
+    <option name="totallyTimeSpent" value="106502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37291983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18910742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06403941" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07881773" sideWeight="0.52118003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34154353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06403941" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07881773" sideWeight="0.47881997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,52 +389,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="80" lean-forward="false" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Back/public/css/stylenav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Back/public/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/src/app/menuadmin/menuadmin.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/node_modules/@angular/router/@angular/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="5366" column="23" lean-forward="false" selection-start-line="5366" selection-start-column="23" selection-end-line="5366" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/src/app/pagina-inicial/pagina-inicial.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -491,13 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -611,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/paginas/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Back/resources/views/pedidos/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/PatioController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,26 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Back/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -723,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/menuadmin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="92" column="125" lean-forward="false" selection-start-line="92" selection-start-column="125" selection-end-line="92" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Back/app/Escola.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -741,21 +655,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/menuadmin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="92" column="125" lean-forward="false" selection-start-line="92" selection-start-column="125" selection-end-line="92" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/masterinicial.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/VisitaGEscolaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Back/resources/views/visitasg/escola.blade.php">
+    <entry file="file://$PROJECT_DIR$/Back/app/Http/Controllers/AcessoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/layouts/menunormal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/acesso/registar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/paginas/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back/resources/views/acesso/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

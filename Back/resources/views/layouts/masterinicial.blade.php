@@ -18,12 +18,7 @@
 
 <body>
 
-@if($nome="normal")
-    @include('layouts.menunormal');
-@else
-    @include('layouts.menuadmin');
-@endif
-
+@include('layouts.menunormal')
 @yield('corpo')
 @include('layouts.footer')
 
