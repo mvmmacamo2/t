@@ -18,9 +18,13 @@
 //});
 
 
-//Route::get('/', 'AdminController@index');
 Route::get('/', 'PagesController@index');
 Route::resource('usuarios', 'UsuarioController');
-Route::resource('pedido', 'PedidoController');
+
+
+
+
+
+
 
 
