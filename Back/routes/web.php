@@ -18,8 +18,11 @@
 //});
 
 
+
 Route::get('/', 'PagesController@index');
+
 Route::resource('usuarios', 'UsuarioController');
+Route::resource('/visitag', 'VisitaGController');
 
 
 

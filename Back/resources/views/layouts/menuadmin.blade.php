@@ -80,12 +80,17 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/usuarios"><i class="material-icons">storage</i></i>Listar usuarios</a>
+                    <a class="nav-link text-white" href="/usuarios"><i class="material-icons">storage</i>Listar usuarios</a>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/pedido"><i class="material-icons">storage</i></i>Pedidos</a>
+                    <a class="nav-link text-white" href="/pedido"><i class="material-icons">storage</i>Pedidos</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/visitag"><i class="material-icons">assignment_returned</i>Visitas Guiadas</a>
                 </li>
 
                 {{--<li class="nav-item">--}}
