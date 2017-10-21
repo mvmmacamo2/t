@@ -8,6 +8,6 @@ class VisitaGController extends Controller
 {
     public function index()
     {
-      return view('visitasg.index');
+//      return view('visitasg.index');
     }
 }

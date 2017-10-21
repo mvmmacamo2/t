@@ -13,9 +13,24 @@
 
          <thead>
          <tr>
-             <th></th>
+             <th>Nome</th>
+             <th>Email</th>
+             <th>Nome Responsavel</th>
+             <th>Data Do Pedido</th>
+             <th>Descricao</th>
+             <th>Data Entrada</th>
          </tr>
          </thead>
+            <tbody>
+            <tr>
+                <td>sxd</td>
+                <td>sxd</td>
+                <td>sxd</td>
+                <td>sxd</td>
+                <td>sxd</td>
+                <td>sxd</td>
+            </tr>
+            </tbody>
 
         </table>
     </main>

@@ -90,7 +90,7 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/visitag"><i class="material-icons">assignment_returned</i>Visitas Guiadas</a>
+                    <a class="nav-link text-white" href="/visitag"><i class="material-icons">assignment_returned</i>Visitas G Escolares</a>
                 </li>
 
                 {{--<li class="nav-item">--}}
